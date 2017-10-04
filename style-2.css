@@ -1,0 +1,182 @@
+
+
+
+
+
+header
+{
+	display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+section
+{
+	display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 12px;
+}
+
+footer
+	
+{
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding-top: 1px;
+	background: #f2f2f2;
+	
+	
+
+}
+   
+
+#yes1
+{
+
+display: flex;
+    justify-content: flex-start ;
+    flex-direction: row;
+    padding: 10px;
+
+
+    
+}
+
+
+#yes2
+{
+	
+display: flex;
+    justify-content: space-end;
+    flex-direction: row;
+    padding: 10px;    
+
+}
+
+.contenu
+{
+	padding: 100px;
+}
+
+.mail
+{
+padding: 12px;
+}
+
+.img_1
+{
+padding: 12px;
+}
+
+button
+{
+   height: 36px;
+    line-height: 27px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    background-color: #f2f2f2 ;
+    border: 1px solid #f2f2f2 ;
+    border-radius: 2px;
+    color: #757575 ;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    display: inline-block;
+}
+section button[type=button]:hover
+{
+    border: 1px solid #c6c6c6 ;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+header button
+{
+   height: 36px;
+    line-height: 27px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    background-color: blue;
+    border: 1px solid #f2f2f2 ;
+    border-radius: 2px;
+    color: white ;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+.contenu
+{
+
+}
+
+.img_2
+{
+text-align: center;
+
+}
+
+
+.france
+{
+
+color: green;
+}
+
+.barre
+{
+align-content: center;
+}
+
+.pub
+{
+padding: 10px;
+}
+
+.entr
+{
+padding: 10px;
+}
+
+.qui
+{
+padding: 10px;
+
+}
+
+.cond
+{
+padding: 10px;
+
+}
+
+.conf
+{
+padding: 10px;
+
+}
+
+.para
+{
+padding: 10px;	
+}
+
