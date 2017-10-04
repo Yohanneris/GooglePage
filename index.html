@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<meta chartset = "utf-8" />
-	<link rel = "stylesheet" href = "style.css" />
+	<title>Google</title>
+	<meta charset = "utf-8" />
+	<link rel = "stylesheet" href = "style-2.css" />
 </head>
 
 <body>
 
+	<!-- Navbar -->
+	<header>
+		<div class = "mail" ><a href="https://accounts.google.com/b/0/AddMailService">Gmail</a></div>
+		<div class = "img_1"><a href="https://www.google.fr/imghp?hl=fr&amp;tab=wi">Images</a></div>
+		<div class = "app">Application</div>
+		<div class = "connexion"><button type="button" class = "boutton"><a href="https://accounts.google.com/signin/v2/identifier?hl=fr&passive=true&continue=https%3A%2F%2Fwww.google.fr%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Connexion</button></a></div>
+	</header>
 
-<div>Header
-<div><a href="https://accounts.google.com/b/0/AddMailService">Gmail</a></div>
-<div><a href="https://www.google.fr/imghp?hl=fr&amp;tab=wi">Image</a></div>
-<div>Bouton</div>
-<div><button>Connexion</button></div>
-</div>
-<p></p>
-<div>Contenu
-<div><img src="http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png" alt="Logo google" width="272" height="198" />
-<div>France</div>
-<div><form><input type="text" /></form></div>
-<div><button>Recherche Google</button></div>
-<div><button>J'ai de la chance</button></div>
-</div>
-<br /> <br />
-<div>Footer
-<div><a href="https://www.google.fr/intl/fr/ads/?fg=1">Publicité</a></div>
-<div><a href="https://www.google.fr/services/?fg=1#?modal_active=none">Entreprise</a></div>
-<div><a href="https://www.google.fr/intl/fr/about/">A propos</a></div>
-<div><a href="https://www.google.fr/intl/fr/policies/privacy/?fg=1">Confidentialité</a></div>
-<div><a href="https://www.google.fr/intl/fr/policies/terms/regional.html">Conditions</a></div>
-<div><a href="https://www.google.fr/preferences?hl=fr">Paramamètre</a></div>
-<div></div>
-</div>
-</div>
+	<!-- partie centrale -->
+	<main>
+		<div class = "contenu">
+			<div class = "img_2"><img src="http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png" alt="Logo google" width="272" height="198" />
+			<div class = "france">France</div>
+			<div class = "barre"><form><input type="text" /></form></div>
+
+			
+			<!-- TODO : enlever les div inutiles -->
+			<section>
+				<div><button type="button"  class = "boutton">Recherche Google</button></div>
+				<div><button type="button"  class = "boutton">J'ai de la chance</button></div>
+			</section>
+		</div>
+		<!-- TODO enlever les balises br -->
+		<br /> <br /> 
+	</main>
+
+	<!-- footer -->
+	<footer>
+		<!-- premiere partie du footer -->
+		<div id = "yes1">
+			<div class = "pub"><a href="https://www.google.fr/intl/fr/ads/?fg=1">Publicité</a></div>
+			<div class = "entr"><a href="https://www.google.fr/services/?fg=1#?modal_active=none">Entreprise</a></div>
+			<div class = "qui"><a href="https://www.google.fr/intl/fr/about/">A propos</a></div></div>
+
+		<!-- deuxieme partie du footer -->
+		<div id = "yes2">
+			<div class = "conf"><a href="https://www.google.fr/intl/fr/policies/privacy/?fg=1">Confidentialité</a></div>
+			<div class = "cond"><a href="https://www.google.fr/intl/fr/policies/terms/regional.html">Conditions</a></div>
+			<div class = "para"><a href="https://www.google.fr/preferences?hl=fr">Paramamètre</a></div></div>
+		</div>
+	</footer>
 
 </body>
 </html>
